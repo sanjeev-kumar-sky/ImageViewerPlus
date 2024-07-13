@@ -1,0 +1,37 @@
+.imageViewerContainer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselContainer {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.slick-slider {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sliderContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.canvasContainer {
+  height: 400px;
+  width: 100%;
+  overflow: auto;
+  display: grid !important;
+  place-items: center !important;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
